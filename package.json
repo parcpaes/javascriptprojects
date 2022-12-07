@@ -1,0 +1,27 @@
+{
+  "name": "javascriptprojects",
+  "version": "1.0.0",
+  "description": "html,css,js practice\r # Web design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parcpaes/javascriptprojects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parcpaes/javascriptprojects/issues"
+  },
+  "homepage": "https://github.com/parcpaes/javascriptprojects#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@testing-library/dom": "^8.19.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/user-event": "^14.4.3",
+    "jest": "^29.3.1"
+  }
+}
