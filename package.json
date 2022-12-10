@@ -4,7 +4,7 @@
   "description": "html,css,js practice\r # Web design",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
