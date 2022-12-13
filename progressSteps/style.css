@@ -24,13 +24,10 @@ body {
   text-align: center;
 }
 
-.progress-container {
-  display: flex;
-  justify-content: space-between;
+.progress-container {  
   position: relative;
   margin-bottom: 30px;
-  max-width: 100%;
-  width: 350px;
+  isolation: isolate;
 }
 
 .progress-container::before {
@@ -55,6 +52,13 @@ body {
   width: 0%;
   z-index: -1;
   transition: 0.4s ease;
+}
+
+.circles{
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 350px;
 }
 
 .circle {

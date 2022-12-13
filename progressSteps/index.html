@@ -9,15 +9,17 @@
   <body>
     <div class="container">
       <div class="progress-container">
-        <div class="progress" id="progress"></div>
-        <div class="circle active">1</div>
-        <div class="circle">2</div>
-        <div class="circle">3</div>
-        <div class="circle">4</div>
+        <span class="progress" id="progress"></span>
+        <div class="circles">
+          <div class="circle active">1</div>
+          <div class="circle">2</div>
+          <div class="circle">3</div>
+          <div class="circle">4</div>
+        </div>
       </div>
-      <button class="btn" id="prev" disabled>Prev</button>
+      <button class="btn" id="prev">Prev</button>
       <button class="btn" id="next">Next</button>
     </div>
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
   </body>
 </html>
