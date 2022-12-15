@@ -1,15 +1,9 @@
-const boxes = document.querySelectorAll('.box');
 
-window.addEventListener('scroll', checkBoxes);
-checkBoxes();
-function checkBoxes() {
-  const triggerBottom = (document.documentElement.clientHeight / 5) * 4;
-  boxes.forEach((box) => {
-    const boxTop = box.getBoundingClientRect().top;
-    if (boxTop < triggerBottom) {
-      box.classList.add('show');
-    } else {
-      box.classList.remove('show');
-    }
-  });
-}
+import {ScrollContainer} from './ScrollContainer.js';
+
+const container = document.getElementById('container');
+const scrollContainer = new ScrollContainer(container);
+
+window.addEventListener('scroll', ()=>{
+  scrollContainer.scroll();
+});
