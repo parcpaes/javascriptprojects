@@ -1,14 +1,12 @@
 const file = require('fs');
 const path = require('node:path');
 import { RestJoke } from '../RestJoke';
+import { writeJoke } from '../writeJoke';
+
 jest.mock('../RestJoke');
 
 import {screen} from '@testing-library/dom';
 import '@testing-library/jest-dom';
-
-import { writeJoke } from '../script';
-
-
 
 const html = file.readFileSync(path.resolve(__dirname,'../index.html'));
 
@@ -18,7 +16,6 @@ const dummyJoke =
     joke: "My dog used to chase people on a bike a lot. It got so bad I had to take his bike away.",
     status: 200
   };
-
 
 describe('Joke API',()=>{
     beforeEach(()=>{
