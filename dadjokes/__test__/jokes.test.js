@@ -6,8 +6,7 @@ jest.mock('../RestJoke');
 import {screen} from '@testing-library/dom';
 import '@testing-library/jest-dom';
 
-import { writeJoke } from '../script';
-
+import { writeJoke } from '../writeJoke';
 
 
 const html = file.readFileSync(path.resolve(__dirname,'../index.html'));
