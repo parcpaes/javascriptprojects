@@ -1,5 +1,7 @@
 # javascriptprojects
+
 html,css,js practice
+
 # Web design
 
 ## Features
@@ -7,13 +9,15 @@ html,css,js practice
 - [blurryLoading] Blurry Loading
 - [contentCircle] Content Cirlce( circle effect )
 - [expandingCardImg] Exapanding Imgages
-- [progressSteps] progress Stepper 
+- [progressSteps] progress Stepper
 - [scrollAnimation] Scroll Animation
 - [scrollAnimation] Search Widget
+- [randomJokes] A Random Jokes from API [icanhasdadjokes](https://icanhazdadjoke.com/api)
 
-[blurryLoading]: https://parcpaes.github.io/javascriptprojects/blurryLoading/
-[contentCircle]: https://parcpaes.github.io/javascriptprojects/contentCircle/
-[expandingCardImg]: https://parcpaes.github.io/javascriptprojects/expandingCardImg/
-[progressSteps]: https://parcpaes.github.io/javascriptprojects/progressSteps/
-[scrollAnimation]: https://parcpaes.github.io/javascriptprojects/scrollAnimation/
-[searchWidget]: https://parcpaes.github.io/javascriptprojects/searchWidget/
+[blurryloading]: https://parcpaes.github.io/javascriptprojects/blurryLoading/
+[contentcircle]: https://parcpaes.github.io/javascriptprojects/contentCircle/
+[expandingcardimg]: https://parcpaes.github.io/javascriptprojects/expandingCardImg/
+[progresssteps]: https://parcpaes.github.io/javascriptprojects/progressSteps/
+[scrollanimation]: https://parcpaes.github.io/javascriptprojects/scrollAnimation/
+[searchwidget]: https://parcpaes.github.io/javascriptprojects/searchWidget/
+[randomjokes]: https://parcpaes.github.io/javascriptprojects/dadjokes/
