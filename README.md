@@ -12,6 +12,7 @@ html,css,js practice
 - [progressSteps] progress Stepper
 - [scrollAnimation] Scroll Animation
 - [scrollAnimation] Search Widget
+- [randomJokes] A Random Jokes from API [icanhasdadjokes](https://icanhazdadjoke.com/api)
 
 [blurryloading]: https://parcpaes.github.io/javascriptprojects/blurryLoading/
 [contentcircle]: https://parcpaes.github.io/javascriptprojects/contentCircle/
@@ -19,4 +20,4 @@ html,css,js practice
 [progresssteps]: https://parcpaes.github.io/javascriptprojects/progressSteps/
 [scrollanimation]: https://parcpaes.github.io/javascriptprojects/scrollAnimation/
 [searchwidget]: https://parcpaes.github.io/javascriptprojects/searchWidget/
-[random dad jokes api]: https://parcpaes.github.io/javascriptprojects/dadjokes/
+[randomjokes]: https://parcpaes.github.io/javascriptprojects/dadjokes/
