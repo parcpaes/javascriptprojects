@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {  
+  margin: 0;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.glass{
+  border:2px solid #083D77;
+  border-radius: 0 0 18px 18px / 0 0 18px 18px;  
+  padding:0 8px;
+}
+
+.glass-250ml > *{
+   padding: 10px 0;
+}
+
+.glass-250ml:hover{
+  cursor: pointer;
+}
+
+.glass-250ml{
+  background-color: whitesmoke;
+  border:2px solid #1244CE;
+}
+
+.grid{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, min-content);
+  grid-auto-rows: 100px;
+  gap: 8px;
+}
+
+
+.glass-2l{
+  width: 8rem;
+  margin: 0 auto;
+  padding:0;
+  height: 16rem;
+  border-radius: 0 0 24px 24px / 0 0 24px 24px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  
+}
+
+.measure{    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  background-color: whitesmoke;
+  flex:1 0 0;
+  min-height: 0; 
+}
+
+.measure > *{
+  margin:0;
+  color:#1244CE;  
+  font-size: 0.75rem;
+  
+}
+
+.measure__water{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.percentage-water{
+  display: flex;  
+  background-color:#42CAFD;
+  font-weight: bold;
+  transition: height 500ms ease-in-out;
+  height: 0;
+}
+
+.percentage-water span{
+  margin:auto;
+  font-size: 1.5rem;
+  color:#003D7A;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.filled-water{
+  background-color: #1e55eb;
+  color:#fff;
+}
