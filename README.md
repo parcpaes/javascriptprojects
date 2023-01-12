@@ -13,6 +13,7 @@ html,css,js practice
 - [scrollAnimation] Scroll Animation
 - [scrollAnimation] Search Widget
 - [randomJokes] A Random Jokes from API [icanhasdadjokes](https://icanhazdadjoke.com/api)
+- [drinkwater] Drink Water
 
 [blurryloading]: https://parcpaes.github.io/javascriptprojects/blurryLoading/
 [contentcircle]: https://parcpaes.github.io/javascriptprojects/contentCircle/
@@ -21,3 +22,4 @@ html,css,js practice
 [scrollanimation]: https://parcpaes.github.io/javascriptprojects/scrollAnimation/
 [searchwidget]: https://parcpaes.github.io/javascriptprojects/searchWidget/
 [randomjokes]: https://parcpaes.github.io/javascriptprojects/dadjokes/
+[drinkwater]: https://parcpaes.github.io/javascriptprojects/drinkwater/
