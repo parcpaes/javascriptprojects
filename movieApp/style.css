@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*,
+*::after,
+::before {
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-color:#0d253f ;  
+}
+
+header{
+  padding:5px 16px;
+  display: flex;  
+}
+.search{
+  margin-left: auto;
+}
+.search-input{
+  border-radius: 12px;
+  padding:5px;  
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(12.5rem,100%),1fr));  
+  gap: 1.4rem;  
+}
+
+.card > img{
+  object-fit:cover;
+  width: 100%;  
+  border-radius: 4px 4px 0 0/ 4px 4px 0 0;
+}
+
+.movie-container{
+  margin:0 auto;
+  padding: 2rem;
+}
+
+.card{
+  background-color: #2F3061;
+  color:#dfcfcf;
+  font-size: 1rem;
+  box-shadow: 1px 4px 5px #222246;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card__info{
+  padding:0 8px;  
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:1rem;
+  font-size: 0.875rem;
+}
+
+.card__info > *+*{
+  margin-top: 0.75rem;
+}
+
+.rating{
+  font-size: 0.8rem;
+  background-color: #1b1c39;
+  padding:2px 5px;
+  border-radius: 2px;  
+}
+
+.rating.green{
+  color:lightgreen;
+}
+
+.rating.orange{
+  color:orange;
+}
+
+.rating.red{
+  color:red;
+}
+
+.card__overview{  
+  position:absolute;
+  background-color: #f5f5f5;
+  padding:1rem 1rem;
+  color:#222;
+  bottom:-100%;  
+  font-size:0.8rem;
+  transition: bottom 400ms ease-in; 
+}
+
+.card:hover .card__overview{  
+  bottom: 0;  
+}
+

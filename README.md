@@ -14,6 +14,7 @@ html,css,js practice
 - [scrollAnimation] Search Widget
 - [randomJokes] A Random Jokes from API [icanhasdadjokes](https://icanhazdadjoke.com/api)
 - [drinkwater] Drink Water
+- [movieApp] Movie app API [TMDB API](https://www.themoviedb.org/documentation/api)
 
 [blurryloading]: https://parcpaes.github.io/javascriptprojects/blurryLoading/
 [contentcircle]: https://parcpaes.github.io/javascriptprojects/contentCircle/
@@ -23,3 +24,4 @@ html,css,js practice
 [searchwidget]: https://parcpaes.github.io/javascriptprojects/searchWidget/
 [randomjokes]: https://parcpaes.github.io/javascriptprojects/dadjokes/
 [drinkwater]: https://parcpaes.github.io/javascriptprojects/drinkwater/
+[movieapp]: https://parcpaes.github.io/javascriptprojects/movieApp/
