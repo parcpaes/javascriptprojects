@@ -1,4 +1,4 @@
-import { buildCardTemplate } from "./CardTemplate.js";
+import { buildCardTemplate } from "./cardTemplate.js";
 const score = {
     best_score: 8,
     good_score: 5
