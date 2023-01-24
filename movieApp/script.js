@@ -4,29 +4,27 @@ const API_URL =
 const SEARCH_API = 'http://api.themoviedb.org/3/search/movie?api_key=669884dd3dc20e5247a3c21405536733&query=';
 
 import {ManageMovies} from './ManageMovies.js'
-
+import {getMovies} from './restMovies.js'
 const form = document.getElementById('from');
 const search = document.getElementById("search");
 const movieContainer = document.querySelector('.movie-container.grid');
 
 const cardMovies = new ManageMovies();
 
-getMovies(API_URL);
-async function getMovies(url){
-    const response = await fetch(url);
-    const movie = await response.json();        
-    const fragment = cardMovies.showCardMovies(movie.results);
+showCardMovies(API_URL);
+async function showCardMovies(api_url){
+    const movies = await getMovies(api_url);    
+    const fragment = cardMovies.createMovieCards(movies);    
     movieContainer.innerHTML='';
     movieContainer.append(fragment);
 }
-
 
 form.addEventListener('submit',(e)=>{
     e.preventDefault();
 
     const searchTerm = search.value;
     if(searchTerm){
-        getMovies(SEARCH_API+ searchTerm);
+        showCardMovies(SEARCH_API+ searchTerm);
         search.value = '';
     }else{
         window.location.reload();
