@@ -1,7 +1,7 @@
 const API_URL = 
-    'http://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=669884dd3dc20e5247a3c21405536733&page=1';
+    'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=669884dd3dc20e5247a3c21405536733&page=1';
 
-const SEARCH_API = 'http://api.themoviedb.org/3/search/movie?api_key=669884dd3dc20e5247a3c21405536733&query=';
+const SEARCH_API = 'https://api.themoviedb.org/3/search/movie?api_key=669884dd3dc20e5247a3c21405536733&query=';
 
 import {ManageMovies} from './ManageMovies.js'
 import {getMovies} from './restMovies.js'
