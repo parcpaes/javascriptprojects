@@ -1,6 +1,6 @@
 import {ManageMovies} from '../ManageMovies';
 
-import { buildCardTemplate } from '../CardTemplate';
+import { buildCardTemplate } from '../cardTemplate';
 
 const mock_movies =[ 
     {
